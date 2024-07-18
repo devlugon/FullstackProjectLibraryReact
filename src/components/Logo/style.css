@@ -1,24 +1,27 @@
 .logo-react {
-    height: 7vmin;
-    pointer-events: none;
+  height: 7vmin;
+  pointer-events: none;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .logo-react {
+    animation: App-logo-spin infinite 50s linear;
   }
-  
-  @media (prefers-reduced-motion: no-preference) {
-    .logo-react {
-      animation: App-logo-spin infinite 50s linear;
-    }
-  }
+}
 
 .logo {
-    display: flex;
-    font-size: 20px;
+  display: flex;
+  font-size: 25px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
   }
-  
-  @keyframes App-logo-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
+
+  to {
+    transform: rotate(360deg);
   }
+}

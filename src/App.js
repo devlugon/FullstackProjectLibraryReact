@@ -1,7 +1,8 @@
 import './App.css';
 import Logo from './components/Logo';
 
-function App(){
+
+function App() {
   return (
     <div className="App">
       <header className="App-header">
