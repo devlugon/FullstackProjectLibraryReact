@@ -1,4 +1,3 @@
-
 import perfil from '../../img/download-imagens/perfil.svg'
 import sacola from '../../img/download-imagens/sacola.svg'
 import styled from 'styled-components'

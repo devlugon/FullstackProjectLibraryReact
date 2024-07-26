@@ -1,4 +1,3 @@
-
 import styled from 'styled-components';
 
 const Option = styled.li`
@@ -17,7 +16,7 @@ const Options = styled.ul`
     display: flex;
 `
 
-const textOptions = ['Categorias', 'Favoritos', 'Minha estante']
+const textOptions = ['Category', 'Favorites', 'My bookshelf']
 
 function HeaderOptions() {
     return (
